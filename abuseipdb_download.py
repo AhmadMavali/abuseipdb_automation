@@ -1,7 +1,7 @@
 import requests
 
-api_key = 'ABUSEIPDB_KEY'  #you should be create API key on abuseipdb.com site and put the key here
-output_file = 'malicious_ips_06_12_2023.txt' #Where the list of download IPs are placed
+api_key = 'ABUSEIPDB_KEY'  #you should create an API key on the abuseipdb.com site and put the key here
+output_file = '/opt/abuseipdb.txt' #Where the list of download IPs are placed with its name.
 
 url = 'https://api.abuseipdb.com/api/v2/blacklist'
 
